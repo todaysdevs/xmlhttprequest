@@ -1,0 +1,11 @@
+{
+  "name": "xmlhttp_request",
+  "version": "1.0.0",
+  "description": "Make a request using an Instance (Object) of XMLHttpRequest",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Todaysdev",
+  "license": "ISC"
+}
