@@ -1,9 +1,9 @@
-// We're going to make a request using an Instance (Object) of XMLHttpRequest !
+// We're going to make a HTTTP request using an Instance (Object) of XMLHttpRequest !
 
 (function () {
 // First of all we need a button that allows us to make the request 
 let requestButton = document.querySelector('#requestButton').addEventListener('click', MakeXMLHttpRequest)
-// Function for our request itself
+// A function for our request itself
 function MakeXMLHttpRequest(){
   // This is an Instance (Object) of XMLHttpRequest
   let xhr = new XMLHttpRequest();
@@ -21,7 +21,7 @@ function MakeXMLHttpRequest(){
      if (xhr.status === 200) {
        alert(xhr.responseText)
      }else
-     alert("Oops the is a problem with your request !")
+     alert("Oops there is a problem with your request !")
    }
  }
   
